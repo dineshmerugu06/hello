@@ -1,0 +1,1 @@
+import"../chunks/httOn2qp.js";import{L as c}from"../chunks/DWnjUfRJ.js";import{M as t}from"../chunks/CghW_jYR.js";import{c as r}from"../chunks/CYmEbMHA.js";function p(o){c(o,{get doc(){return r},choice:e=>{t(e,{})},$$slots:{choice:!0}})}export{p as component};

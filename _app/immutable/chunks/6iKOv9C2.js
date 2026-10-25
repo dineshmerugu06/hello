@@ -1,0 +1,1 @@
+const u=new Intl.PluralRules("fr"),s=new Intl.NumberFormat("fr-FR",{maximumFractionDigits:0}),c=t=>s.format(t),a=t=>u.select(t)==="one";function l(t,n,o,r,e={}){return t(a(n)?o:r,{...e,count:c(n)})}export{l as c,c as f};

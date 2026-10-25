@@ -1,0 +1,19 @@
+# SYBIOSME — the landing and its legal pages are public; the client space,
+# the administration, the sign-in and the APIs are private.
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /auth/
+Disallow: /login
+Disallow: /account
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /confirmation
+Disallow: /dev/
+Disallow: /*/login
+Disallow: /*/account
+Disallow: /*/admin
+Disallow: /*/onboarding
+Disallow: /*/confirmation
+
+Sitemap: https://www.sybiosme.com/sitemap.xml

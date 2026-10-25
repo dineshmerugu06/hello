@@ -1,0 +1,1 @@
+function u(t,r,c){const e={count:t.number(r),limit:t.number(c)},n=new Intl.PluralRules(t.tag).select(r)==="one";return{shown:`${e.count}/${e.limit}`,spoken:n?t.t("{count} caractère sur {limit}",e):t.t("{count} caractères sur {limit}",e)}}export{u as c};
