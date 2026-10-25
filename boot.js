@@ -23,7 +23,7 @@ if (heroHandoff && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   // Start the hero's single request early and share its reusable Blob with
   // WebGL. Safari can download an as=fetch preload again when fetch consumes
   // it; a shared promise avoids that second transfer on every engine.
-  window.__heroSheet = fetch('/media/hero-sphere.avif', { priority: 'high' })
+  window.__heroSheet = fetch(new URL("../../../media/hero-sphere.avif",import.meta.url).href, { priority: 'high' })
     .then(response => response.ok ? response.blob() : null)
     .catch(() => null);
   const root = document.documentElement;
