@@ -1,63 +1,63 @@
-BRIEF DE SITE VITRINE
-Document de cadrage à compléter avec le prestataire ; ne remplace pas le devis et le contrat.
+BRIEF DE PROFIL — VOTRE RECHERCHE D’EMPLOI
+Document de cadrage à compléter avec votre agent ; c’est la source unique de vérité de chaque CV. Il ne remplace pas le périmètre convenu.
 
-1. Votre site en quelques choix
+1. Votre recherche en quelques choix
 
-Nom du projet
+Nom du brief
 À préciser — Un intitulé suffit. Aucun nom de personne ni email nécessaire.
 
-Premier site ou refonte ?
-À préciser — Premier site ; ou adresse actuelle, raison du changement et éléments à conserver.
+Première recherche ou reprise ?
+À préciser — Première recherche ; ou méthode actuelle, raison du changement et éléments à conserver.
 
-Activité et offres
-À préciser — Services proposés, limites, zone d’intervention et coordonnées publiques à afficher.
+Expérience et compétences
+À préciser — Postes occupés, limites, zones visées et coordonnées publiques à afficher.
 
-Public prioritaire et ses questions
-À préciser — Qui consulte le site ? Que doit-il savoir avant de vous contacter ?
+Qui doit vous recruter, et ses questions
+À préciser — Qui lit votre CV ? Que doit-il savoir avant de vous contacter ?
 
-Objectif commercial
-À préciser — Ce que le site doit changer pour votre activité ; précisez si vous manquez de données.
+Objectif de carrière
+À préciser — Ce qui doit changer pour votre carrière ; dites si vous manquez de données fiables.
 
-Action du visiteur et traitement des demandes
-À préciser — Devis, appel ou rendez-vous ; qui reçoit les demandes et qui y répond ?
+Action attendue et gestion des réponses
+À préciser — Email, appel ou entretien ; qui reçoit les réponses et qui y répond ?
 
-Pages et informations à prévoir
-À préciser — Pour chaque page ou section : la question du visiteur à laquelle elle répond.
+Sections et informations nécessaires
+À préciser — Pour chaque section : la question de l’employeur à laquelle elle répond.
 
 Fonctions, outils et priorités
-À préciser — Usage attendu et outil à relier ; indispensable, à chiffrer séparément ou plus tard.
+À préciser — Usage attendu et outil connecté ; essentiel, traité séparément ou plus tard.
 
 2. Ce que vous avez déjà
 
-Textes et informations métier
-À préciser — Disponible / à produire ; qui fournit les faits, qui rédige, qui valide et quand ?
+CV et informations de carrière
+À préciser — Disponible / à produire ; qui fournit les faits, rédige, valide et quand ?
 
-Logo, photos et identité visuelle
-À préciser — Fichiers et droits disponibles ; création ou achat à chiffrer ; responsable de validation.
+Certificats, portfolio et identité de format
+À préciser — Fichiers disponibles et droits ; création à organiser ; responsable de la validation.
 
 Preuves utilisables
-À préciser — Qualifications, réalisations ou avis réels ; autorisations à obtenir ; sinon, ce qui manque.
+À préciser — Qualifications, travail ou références réelles ; autorisations nécessaires ; sinon, ce qui manque.
 
-Informations légales et données
-À préciser — Textes à fournir ou faire vérifier ; données du formulaire, destinataires, conservation, outils tiers.
+Informations personnelles et données
+À préciser — Faits à fournir ou vérifier ; données de formulaire, destinataires, conservation et outils tiers.
 
-3. L’organisation du projet
+3. Organiser la recherche
 
-Budget de départ et budget récurrent
-À préciser — Enveloppes, devise, période ; rédaction, images, services tiers et évolutions à inclure ou chiffrer.
+Budget initial et récurrent
+À préciser — Budgets, devise, période ; rédaction, documents, services tiers et modifications à inclure ou organiser.
 
 Calendrier et validations
-À préciser — Date souhaitée ou impérative, personne qui valide, disponibilité et dépendances connues.
+À préciser — Date souhaitée ou fixe, valideur, disponibilités et dépendances connues.
 
-Domaine, services et accès à prévoir
-À préciser — Titulaire, gestionnaire et services concernés, emails à conserver. Aucun mot de passe.
+Comptes, services et accès nécessaires
+À préciser — Titulaire, gestionnaire et comptes concernés, email à préserver. Aucun mot de passe.
 
-Critères d’acceptation du site
-À préciser — Parcours mobile, demande d’essai reçue, informations exactes, contrôles particuliers à convenir.
+Critères d’acceptation des candidatures
+À préciser — Parcours mobile, candidature test suivie, informations exactes, contrôles spécifiques à convenir.
 
-Après la mise en ligne
-À préciser — Qui héberge, renouvelle, maintient et modifie ? Qui vérifie les demandes et les résultats ?
+Après la candidature
+À préciser — Qui renouvelle, maintient et met à jour ? Qui examine les réponses et les résultats ?
 
-Réponse attendue du prestataire : livrables, exclusions, contenus à produire, retours compris, calendrier conditionnel et coûts récurrents. Confirmer les points restant à préciser.
+Réponse attendue de l’agent : livrables, exclusions, travail de rédaction, révisions incluses, calendrier conditionnel et coûts récurrents. Confirmez tous les points non résolus.
 
-Trame : SYBIOSME — https://www.sybiosme.com/fr
+Modèle : IMPERIUM
