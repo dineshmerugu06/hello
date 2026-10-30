@@ -1,0 +1,94 @@
+[
+ {
+  "q": "What is Imperium?",
+  "a": "Imperium is a local, career-focused personal agent. A Commander takes your plain-words command and delegates to specialists: a Job Agent that finds real jobs, a Resume Studio that tailors your resume, a Research Agent that studies companies, an Automation Agent that fills forms, and a Tracker that follows every application. It runs on your own machine, with a local Ollama brain and a local SQLite database. No cloud, no subscription, no API keys."
+ },
+ {
+  "q": "Why run a job agent locally instead of a cloud service?",
+  "a": "With Imperium, your profile, resume and job history never leave your machine, so there is nothing to leak, sell or train on. A cloud service needs your data on its servers and a subscription to pay for them; Imperium needs neither. The work continues after each application too: the Tracker watches every application and warns you when one goes stale, so your search remains useful instead of being launched and left untouched."
+ },
+ {
+  "q": "How much does Imperium cost?",
+  "a": "Imperium is free: every mode costs $0, because the software, the local Ollama brain and the database all run on your own machine. There are no subscriptions, setup fees or API keys. Nothing is taken when you sign up, because there is no payment at all.Every capability is included in every mode. Imperium charges no VAT and no fees, because nothing is sold: it is your software, on your computer."
+ },
+ {
+  "q": "What’s the difference between Local Logic, Ollama 3B and Ollama 7B?",
+  "a": "Every mode includes the same agents, the same database and the same locked flow. Only the brain changes.Local Logic, $0 runs Imperium on deterministic code alone: filters, scoring and tracking, with no AI model, and It always works, even with Ollama off.Ollama 3B, $0 adds a light local model for drafting and summaries, with faster answers on modest hardware.Ollama 7B, $0, includes everything in Ollama 3B, with the strongest local reasoning (qwen2.5:7b), plus deep resume tailoring, guardrail fact-checking and full delegation."
+ },
+ {
+  "q": "Can I stop using Imperium at any time?",
+  "a": "Yes. There is no subscription to cancel. You simply stop running Imperium, or delete it, whenever you like.Your applications, resumes and research stay in your local database, on your machine, whether Imperium is running or not. Nothing is held on a server, so nothing needs to be cancelled, refunded or exported before a deadline. Deleting the local database deletes your data completely."
+ },
+ {
+  "q": "Who owns my data?",
+  "a": "Your data is yours from the very first day. Imperium creates resumes and notes from your profile, and everything it creates is yours at no charge — there are no payments to complete.Your database is a single local SQLite file. You can copy it, back it up or delete it whenever you like, without asking anyone. Exports are provided within seconds, by you. Job listings remain the property of the boards that published them. Your profile and everything you provide belong to you from the start."
+ },
+ {
+  "q": "What happens to my data if I stop early?",
+  "a": "Nothing is lost and nothing is owed. You have two options:Leave everything as it is. There are no remaining fees, because there were never any fees. Your local files stay exactly where they are, on your machine.Keep everything. Everything Imperium made for you — resumes, versions, research notes, your full application timeline — is already in your local database. There is nothing to transfer, because it was never anywhere else.For example, after five months of job searching with no add-ons, the cost of keeping everything is $0: there is no bill.Either way, your data remains yours, and you can retrieve any content you supplied at any time. Nothing expires and nothing is withheld."
+ },
+ {
+  "q": "What happens after the first year?",
+  "a": "Nothing changes. There is no subscription to end and no ownership to transfer: Imperium keeps running on your machine for as long as you want it.You can also stop and manage your job search yourself, or export your data and use another tool. Your SQLite database and exported resumes remain readable and yours."
+ },
+ {
+  "q": "Can Imperium use my existing resume?",
+  "a": "Yes. Imperium builds your profile from your existing resume, and your profile becomes the single source of truth. Every tailored resume, form fill and summary is checked against it, and anything not in your profile is never invented."
+ },
+ {
+  "q": "How does the application process work?",
+  "a": "You start by saving a job you want. Generating its resume takes around a minute. Resume Studio tailors your profile to that job description and scores the result with ATS, showing matched and missing keywords.You edit in the editor, watch the preview update and re-score after every change. When you apply, the Automation Agent fills the real form from your profile and resume, then stops before Submit so you can check every field."
+ },
+ {
+  "q": "How soon can I apply?",
+  "a": "Your application can be ready within one session of finding the job: generate the resume, check the ATS score, fill the form. Time spent waiting for you — checking fields, answering a question only you can answer — is yours, and the agent waits.If a job board blocks the agent — a CAPTCHA, a login wall, an OTP — the run stops and tells you exactly what is needed. Imperium never bypasses a login or solves a CAPTCHA by trickery."
+ },
+ {
+  "q": "What if the first resume draft isn’t right?",
+  "a": "The first draft is a starting point, not a final decision. Edit any line, accept or reject each AI suggestion one by one, and watch the ATS score move. Nothing is applied automatically, and the guardrail strips any line that mentions a skill, job or degree your profile does not contain."
+ },
+ {
+  "q": "What happens if a job closes before I apply?",
+  "a": "Jobs close, and Imperium says so honestly. If a listing disappears, the job is marked closed with its real date and your saved search simply moves on to the next matching listing.Freshness is computed from the real posted date, and stale applications are flagged after 7 days with no real change, so nothing quietly rots in your tracker. No status is ever invented to make the pipeline look busy."
+ },
+ {
+  "q": "Where do the jobs come from?",
+  "a": "Imperium fetches real, live listings from public job sources: Remotive, Arbeitnow and Jobicy. Every source is named in the app, and every search shows a filter report: how many jobs came in, how many each filter removed, and why.Listings are deduplicated by company, title and URL, and salary and location are normalised so similar jobs can be compared honestly.Scores are computed by deterministic code against your profile — matched skills, missing skills, title and location — never invented by the language model."
+ },
+ {
+  "q": "Do I need to manage Imperium after setup?",
+  "a": "No. Your local account, database and brain run on your machine. You talk to the Commander in plain words, approve what it proposes, and take only the final actions that need your own eyes — above all, clicking Submit yourself."
+ },
+ {
+  "q": "What counts as an application?",
+  "a": "An application is one real job, followed through the locked flow: discovered, resume generated, ATS checked, ready to apply, filled, submitted by you, and tracked. Each state change is a real database event, shown live in the Tracker.Local Logic includes unlimited discoveries, Ollama 3B unlimited tailored resumes and Ollama 7B unlimited form fills. There are no allowances and no counters, because nothing is metered: your machine does the work."
+ },
+ {
+  "q": "Does Imperium ever submit for me?",
+  "a": "No — never. There is no submit function anywhere in Imperium, not even a disabled one. The agent fills the form, shows the checklist, and stops. Only you click Submit, and the application becomes “submitted” in the Tracker only when you confirm it with proof."
+ },
+ {
+  "q": "How do I track progress?",
+  "a": "Every application has a live timeline in the Tracker, and a global activity feed shows every real step with a timestamp. Updates arrive by Server-Sent Events the moment the database changes — never on a timer, never invented.Imperium is built and maintained by Merugu Dinesh Kumar. Questions go to dinesh.merugu.kumar@gmail.com. There are no support tiers, because there are no modes to sell."
+ },
+ {
+  "q": "Will my resume be optimized for ATS?",
+  "a": "Every mode includes ATS scoring against the exact job description: matched keywords, missing keywords and a plain-language explanation, re-scored after every edit. Resumes are written only from your profile, so every keyword claimed is one you can defend in an interview.The aim is a resume an applicant tracking system can read and a recruiter can trust. Imperium does not guarantee a particular ATS score, an interview or a job offer."
+ },
+ {
+  "q": "Who is responsible for my data?",
+  "a": "You are — because it never leaves your machine. Imperium stores your profile, resumes and job history in a local SQLite database, and sends none of it to any outside service. Passwords are hashed, session cookies are httpOnly, and resume text is never written to logs.What you submit to an employer is your decision: the agent prepares and fills, you review and submit. That split is deliberate, and it is enforced by the state machine, not by a promise."
+ },
+ {
+  "q": "What’s included in Research Notes?",
+  "a": "For any saved job, the Research Agent gathers public information about the company and the role — what it does, its size and location if publicly known, its stated tech stack and recent public signals — and stores it as a sourced note attached to the job.Like everything in Imperium, it costs $0 and is included in every mode, with no maximum of notes per job. Every claim carries its source; anything without a source is labelled an inference or left out."
+ },
+ {
+  "q": "What’s included in ATS Scoring?",
+  "a": "For $0 in every mode: your resume is scored against the exact job description, with matched and missing keywords and a plain-language explanation.Re-score after every edit, and watch the score move only when the text really changes."
+ },
+ {
+  "q": "How much does Form Filling cost?",
+  "a": "Form Filling costs $0, like everything else. The Automation Agent maps every form field to your profile or resume, fills what it can, blocks what it must — CAPTCHA, password, OTP and unknown fields — and stops before Submit."
+ }
+]

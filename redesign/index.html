@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imperium — Your Local AI Career Agent | IMPERIUM</title>
+<meta name="description" content="Imperium is a career agent that runs on your own machine. It finds real jobs, tailors your resume and fills the forms. Only you click Submit. Local only, $0, no subscription.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="page">
+
+<!-- ============ HERO — two-by-two board ============ -->
+<header class="board" id="top">
+  <div class="board-row arrive-group">
+    <a class="tile tile-mark" href="#top" aria-label="Imperium — back to top">IM</a>
+    <nav class="tile tile-links" aria-label="Sections">
+      <a href="#how">How it works</a>
+      <a href="#flow">The flow</a>
+      <a href="#agents">The agents</a>
+      <a href="#modes">Modes</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="tile tile-action" href="#modes">Choose your mode</a>
+  </div>
+  <div class="board-grid">
+    <div class="tile tile-name arrive">
+      <h1>IMPERIUM</h1>
+    </div>
+    <figure class="tile tile-photo arrive">
+      <div class="ph ph-drift"><picture>
+        <source srcset="../media/work/1.avif" type="image/avif">
+        <img src="../media/work/1.webp" alt="A desk with a laptop and papers, lit for work" width="1328" height="876" fetchpriority="high">
+      </picture></div>
+    </figure>
+    <figure class="tile tile-photo arrive">
+      <div class="ph ph-drift"><picture>
+        <source srcset="../media/work/3.avif" type="image/avif">
+        <img src="../media/work/3.webp" alt="A person working at a screen in a dark office" width="1328" height="876" loading="lazy">
+      </picture></div>
+    </figure>
+    <div class="tile tile-split arrive-group">
+      <p class="tile tile-dark">A career agent on your own machine. It finds real jobs, tailors your resume and fills the forms — for $0.</p>
+      <p class="tile tile-accent">Only you can submit. The agent has no submit button.</p>
+    </div>
+  </div>
+</header>
+
+
+<!-- ============ INTRO — headline crossing onto a photograph ============ -->
+<section class="intro" id="how">
+  <div class="intro-stage">
+    <h2 class="arrive">Nothing leaves<br>your machine</h2>
+    <figure class="intro-photo-main shutter arrive">
+      <div class="ph"><picture>
+        <source srcset="../media/work/5.avif" type="image/avif">
+        <img src="../media/work/5.webp" alt="A workspace with a large screen, seen from the side" width="1328" height="876" loading="lazy">
+      </picture></div>
+    </figure>
+    <p class="intro-para arrive">Your profile, your resumes and your job history live in one SQLite file on this machine. No cloud, no account, no API keys.</p>
+    <figure class="intro-photo-small arrive">
+      <div class="ph ph-drift"><picture>
+        <source srcset="../media/work/4.avif" type="image/avif">
+        <img src="../media/work/4.webp" alt="Hands at a keyboard in low light" width="1328" height="876" loading="lazy">
+      </picture></div>
+    </figure>
+  </div>
+  <div class="intro-facts arrive-group">
+    <div class="fact arrive">
+      <h3>One SQLite file</h3>
+      <p>Profile, resumes and applications in a single source of truth — yours to copy, back up or delete.</p>
+    </div>
+    <div class="fact arrive">
+      <h3>A brain on your machine</h3>
+      <p>Ollama qwen2.5:7b, qwen2.5:3b, or plain Local Logic when no model is running.</p>
+    </div>
+    <div class="fact arrive">
+      <h3>Nothing to pay, ever</h3>
+      <p>No subscription, no API keys, no account. Every capability is included in every mode.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE LOCKED FLOW — call and response column ============ -->
+<section class="flow" id="flow">
+  <div class="flow-col">
+    <h2 class="arrive">One flow. No shortcuts.</h2>
+    <p class="flow-lede arrive">Every application moves through the same six states, in order. A state is a real database event — it cannot be skipped, faked or reordered.</p>
+
+    <div class="exchange arrive">
+      <p class="ex-sentence">First, it finds real jobs.</p>
+      <p class="ex-call">Discovered</p>
+      <div class="ex-response" data-ui>
+        <p class="ui-row"><span class="ui-job">Frontend Developer · Remotive</span><span class="ui-state is-now">Discovered</span></p>
+        <p class="ui-note">Filter report: 362 in · 18 matched · every removal explained</p>
+      </div>
+    </div>
+
+    <div class="exchange arrive">
+      <p class="ex-sentence">Then, it builds the resume.</p>
+      <p class="ex-call">Resume generated</p>
+      <div class="ex-response" data-ui>
+        <p class="ui-row"><span class="ui-job">Resume — Frontend Developer</span><span class="ui-state is-now">Generated</span></p>
+        <p class="ui-note">Written only from your profile. The guardrail strips any line it cannot prove.</p>
+      </div>
+    </div>
+
+    <div class="exchange arrive">
+      <p class="ex-sentence">Then, the score is checked.</p>
+      <p class="ex-call">ATS checked</p>
+      <div class="ex-response" data-ui>
+        <p class="ui-row"><span class="ui-job">ATS score</span><span class="ui-figure">82</span></p>
+        <p class="ui-note">Matched 14 keywords · missing 3 · re-scored after every edit</p>
+      </div>
+    </div>
+
+    <div class="exchange arrive">
+      <p class="ex-sentence">Then, the form is filled.</p>
+      <p class="ex-call">Filled — awaiting you</p>
+      <div class="ex-response" data-ui>
+        <p class="ui-row"><span class="ui-job">Application form</span><span class="ui-state is-now">Filled</span></p>
+        <p class="ui-note">9 of 15 fields filled from your profile. Blocked and named: CAPTCHA, password, OTP.</p>
+      </div>
+    </div>
+
+    <div class="exchange exchange-gate arrive">
+      <p class="ex-sentence">Then, you — and only you — submit.</p>
+      <p class="ex-call ex-call-accent">Submitted by you</p>
+      <div class="ex-response" data-ui>
+        <p class="ui-row"><span class="ui-job">The gate</span><span class="ui-state is-gate">Your move</span></p>
+        <p class="ui-note">There is no submit function in Imperium — not even a disabled one. The agent stops here and waits.</p>
+      </div>
+    </div>
+
+    <div class="exchange arrive">
+      <p class="ex-sentence">Finally, every step is tracked.</p>
+      <p class="ex-call">Tracked</p>
+    </div>
+  </div>
+  <div class="flow-result arrive" data-ui>
+    <p class="ui-head">Tracker — Frontend Developer · Remotive</p>
+    <ol class="timeline">
+      <li><span class="tl-state">Discovered</span><span class="tl-time">09:12</span></li>
+      <li><span class="tl-state">Resume generated</span><span class="tl-time">09:13</span></li>
+      <li><span class="tl-state">ATS checked · 82</span><span class="tl-time">09:13</span></li>
+      <li><span class="tl-state">Filled — awaiting you</span><span class="tl-time">09:14</span></li>
+      <li class="tl-gate"><span class="tl-state">Submitted by you</span><span class="tl-time">09:16</span></li>
+      <li><span class="tl-state">Tracked</span><span class="tl-time">Live</span></li>
+    </ol>
+    <div class="tl-track" aria-hidden="true"><span class="tl-fill"></span></div>
+    <p class="ui-note">The timeline updates the moment the database changes — by Server-Sent Events, never on a timer. Stale applications are flagged after 7 days; closed jobs are marked closed.</p>
+  </div>
+</section>
+
+<!-- ============ THE AGENTS — panel with margin notes ============ -->
+<section class="agents" id="agents">
+  <div class="agents-grid">
+    <h2 class="arrive">Six agents,<br>one command</h2>
+
+    <div class="notes notes-left arrive-group">
+      <button class="note arrive" type="button" data-agent="commander" aria-pressed="false">
+        <span class="note-name">Commander</span>
+        <span class="note-job">Takes your plain-words command and delegates to the specialists. You approve what it proposes.</span>
+      </button>
+      <button class="note arrive" type="button" data-agent="job" aria-pressed="false">
+        <span class="note-name">Job Agent</span>
+        <span class="note-job">Fetches real listings from Remotive, Arbeitnow and Jobicy — and shows the filter report for every search.</span>
+      </button>
+      <button class="note arrive" type="button" data-agent="resume" aria-pressed="false">
+        <span class="note-name">Resume Studio</span>
+        <span class="note-job">Tailors your resume to the exact job description, from your profile only. Anything else is stripped.</span>
+      </button>
+    </div>
+
+    <div class="console arrive" data-ui>
+      <p class="ui-head">Commander</p>
+      <p class="console-cmd">“Find me a frontend job I can apply to today.”</p>
+      <ul class="console-agents">
+        <li data-agent="commander"><span class="ca-name">Commander</span><span class="ca-status">Delegating</span></li>
+        <li data-agent="job"><span class="ca-name">Job Agent</span><span class="ca-status">362 in · 18 matched</span></li>
+        <li data-agent="resume"><span class="ca-name">Resume Studio</span><span class="ca-status">Tailored · ATS 82</span></li>
+        <li data-agent="research"><span class="ca-name">Research Agent</span><span class="ca-status">Note attached · sourced</span></li>
+        <li data-agent="automation"><span class="ca-name">Automation Agent</span><span class="ca-status">Form filled · stopped</span></li>
+        <li data-agent="tracker"><span class="ca-name">Tracker</span><span class="ca-status">Watching · live</span></li>
+      </ul>
+      <p class="ui-note">One command in plain words. Six specialists do the work. The last step is always yours.</p>
+    </div>
+
+    <div class="notes notes-right arrive-group">
+      <button class="note arrive" type="button" data-agent="research" aria-pressed="false">
+        <span class="note-name">Research Agent</span>
+        <span class="note-job">Studies the company and the role from public sources. Every claim carries its source, or is labelled an inference.</span>
+      </button>
+      <button class="note arrive" type="button" data-agent="automation" aria-pressed="false">
+        <span class="note-name">Automation Agent</span>
+        <span class="note-job">Fills the real form from your profile, blocks CAPTCHA, password and OTP fields — and stops before Submit.</span>
+      </button>
+      <button class="note arrive" type="button" data-agent="tracker" aria-pressed="false">
+        <span class="note-name">Tracker</span>
+        <span class="note-job">Follows every application on a live timeline, updated the moment the database changes. Nothing quietly rots.</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHOOSE YOUR MODE — plans as a large table + configurator ============ -->
+<section class="modes" id="modes">
+  <div class="table-wrap arrive">
+    <table class="plans">
+      <colgroup>
+        <col class="col-label">
+        <col class="col-plan" data-plan="logic">
+        <col class="col-plan" data-plan="3b">
+        <col class="col-plan is-selected" data-plan="7b">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col" class="plans-title">Choose your mode</th>
+          <th scope="col"><span class="plan-name">Local Logic</span><span class="plan-price">$0</span></th>
+          <th scope="col"><span class="plan-name">Ollama 3B</span><span class="plan-price">$0</span></th>
+          <th scope="col"><span class="plan-name">Ollama 7B</span><span class="plan-price">$0</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">The brain</th>
+          <td>Deterministic code alone</td>
+          <td>qwen2.5:3b, a light local model</td>
+          <td>qwen2.5:7b, the strongest local reasoning</td>
+        </tr>
+        <tr>
+          <th scope="row">The agents</th>
+          <td>All six</td>
+          <td>All six</td>
+          <td>All six</td>
+        </tr>
+        <tr>
+          <th scope="row">Resume tailoring</th>
+          <td>Built from your profile, ATS scored</td>
+          <td>Drafting and summaries added</td>
+          <td>Deep tailoring, guardrail fact-checking</td>
+        </tr>
+        <tr>
+          <th scope="row">Works with Ollama off</th>
+          <td>Yes — always</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <th scope="row">Your data</th>
+          <td>One local SQLite file</td>
+          <td>One local SQLite file</td>
+          <td>One local SQLite file</td>
+        </tr>
+        <tr class="plans-actions">
+          <th scope="row"><span class="visually-hidden">Run this mode</span></th>
+          <td><button class="plan-pick" type="button" data-pick="logic" aria-pressed="false">Use Local Logic</button></td>
+          <td><button class="plan-pick" type="button" data-pick="3b" aria-pressed="false">Use Ollama 3B</button></td>
+          <td><button class="plan-pick" type="button" data-pick="7b" aria-pressed="true">Use Ollama 7B</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="config arrive-group">
+    <div class="config-total arrive">
+      <p class="total-figure">$0</p>
+      <p class="total-note">Total. No subscription, no API keys, nothing to cancel.</p>
+    </div>
+    <div class="config-addons arrive">
+      <p class="config-label">Included in every mode — turn them on:</p>
+      <label class="addon"><input type="checkbox" id="addon-research" checked><span>Research Notes</span></label>
+      <label class="addon"><input type="checkbox" id="addon-ats" checked><span>ATS Scoring</span></label>
+      <label class="addon"><input type="checkbox" id="addon-form" checked><span>Form Filling</span></label>
+    </div>
+    
+    <div class="config-action arrive">
+      <p class="config-readout" id="configReadout" aria-live="polite">Ollama 7B: the strongest local reasoning — deep resume tailoring and guardrail fact-checking, on your machine.</p>
+      <a class="btn" id="configCta" href="mailto:dinesh.merugu.kumar@gmail.com?subject=Imperium%20%E2%80%94%20Ollama%207B&amp;body=Mode%3A%20Ollama%207B%20(qwen2.5%3A7b)%0AAdd-ons%3A%20Research%20Notes%2C%20ATS%20Scoring%2C%20Form%20Filling%0ATotal%3A%20%240">Talk to Imperium</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ — answers as reading text ============ -->
+<section class="faq" id="faq">
+  <h2 class="arrive">Questions,<br>answered straight</h2>
+  <div class="faq-text arrive">
+    <p><strong>What is Imperium?</strong> Imperium is a local, career-focused personal agent. A Commander takes your plain-words command and delegates to specialists: a Job Agent that finds real jobs, a Resume Studio that tailors your resume, a Research Agent that studies companies, an Automation Agent that fills forms, and a Tracker that follows every application. It runs on your own machine, with a local Ollama brain and a local SQLite database. No cloud, no subscription, no API keys.</p>
+    <p><strong>Why run a job agent locally instead of a cloud service?</strong> With Imperium, your profile, resume and job history never leave your machine, so there is nothing to leak, sell or train on. A cloud service needs your data on its servers and a subscription to pay for them; Imperium needs neither. The work continues after each application too: the Tracker watches every application and warns you when one goes stale, so your search remains useful instead of being launched and left untouched.</p>
+    <p><strong>How much does Imperium cost?</strong> Imperium is free: every mode costs $0, because the software, the local Ollama brain and the database all run on your own machine. There are no subscriptions, setup fees or API keys. Nothing is taken when you sign up, because there is no payment at all. Every capability is included in every mode. Imperium charges no VAT and no fees, because nothing is sold: it is your software, on your computer.</p>
+    <p><strong>What’s the difference between Local Logic, Ollama 3B and Ollama 7B?</strong> Every mode includes the same agents, the same database and the same locked flow. Only the brain changes. Local Logic, $0 runs Imperium on deterministic code alone: filters, scoring and tracking, with no AI model, and It always works, even with Ollama off. Ollama 3B, $0 adds a light local model for drafting and summaries, with faster answers on modest hardware. Ollama 7B, $0, includes everything in Ollama 3B, with the strongest local reasoning (qwen2.5:7b), plus deep resume tailoring, guardrail fact-checking and full delegation.</p>
+    <p><strong>Can I stop using Imperium at any time?</strong> Yes. There is no subscription to cancel. You simply stop running Imperium, or delete it, whenever you like. Your applications, resumes and research stay in your local database, on your machine, whether Imperium is running or not. Nothing is held on a server, so nothing needs to be cancelled, refunded or exported before a deadline. Deleting the local database deletes your data completely.</p>
+    <p><strong>Who owns my data?</strong> Your data is yours from the very first day. Imperium creates resumes and notes from your profile, and everything it creates is yours at no charge — there are no payments to complete. Your database is a single local SQLite file. You can copy it, back it up or delete it whenever you like, without asking anyone. Exports are provided within seconds, by you. Job listings remain the property of the boards that published them. Your profile and everything you provide belong to you from the start.</p>
+    <p><strong>What happens to my data if I stop early?</strong> Nothing is lost and nothing is owed. You have two options: Leave everything as it is. There are no remaining fees, because there were never any fees. Your local files stay exactly where they are, on your machine. Keep everything. Everything Imperium made for you — resumes, versions, research notes, your full application timeline — is already in your local database. There is nothing to transfer, because it was never anywhere else. For example, after five months of job searching with no add-ons, the cost of keeping everything is $0: there is no bill. Either way, your data remains yours, and you can retrieve any content you supplied at any time. Nothing expires and nothing is withheld.</p>
+    <p><strong>What happens after the first year?</strong> Nothing changes. There is no subscription to end and no ownership to transfer: Imperium keeps running on your machine for as long as you want it. You can also stop and manage your job search yourself, or export your data and use another tool. Your SQLite database and exported resumes remain readable and yours.</p>
+    <p><strong>Can Imperium use my existing resume?</strong> Yes. Imperium builds your profile from your existing resume, and your profile becomes the single source of truth. Every tailored resume, form fill and summary is checked against it, and anything not in your profile is never invented.</p>
+    <p><strong>How does the application process work?</strong> You start by saving a job you want. Generating its resume takes around a minute. Resume Studio tailors your profile to that job description and scores the result with ATS, showing matched and missing keywords. You edit in the editor, watch the preview update and re-score after every change. When you apply, the Automation Agent fills the real form from your profile and resume, then stops before Submit so you can check every field.</p>
+    <p><strong>How soon can I apply?</strong> Your application can be ready within one session of finding the job: generate the resume, check the ATS score, fill the form. Time spent waiting for you — checking fields, answering a question only you can answer — is yours, and the agent waits. If a job board blocks the agent — a CAPTCHA, a login wall, an OTP — the run stops and tells you exactly what is needed. Imperium never bypasses a login or solves a CAPTCHA by trickery.</p>
+    <p><strong>What if the first resume draft isn’t right?</strong> The first draft is a starting point, not a final decision. Edit any line, accept or reject each AI suggestion one by one, and watch the ATS score move. Nothing is applied automatically, and the guardrail strips any line that mentions a skill, job or degree your profile does not contain.</p>
+    <p><strong>What happens if a job closes before I apply?</strong> Jobs close, and Imperium says so honestly. If a listing disappears, the job is marked closed with its real date and your saved search simply moves on to the next matching listing. Freshness is computed from the real posted date, and stale applications are flagged after 7 days with no real change, so nothing quietly rots in your tracker. No status is ever invented to make the pipeline look busy.</p>
+    <p><strong>Where do the jobs come from?</strong> Imperium fetches real, live listings from public job sources: Remotive, Arbeitnow and Jobicy. Every source is named in the app, and every search shows a filter report: how many jobs came in, how many each filter removed, and why. Listings are deduplicated by company, title and URL, and salary and location are normalised so similar jobs can be compared honestly. Scores are computed by deterministic code against your profile — matched skills, missing skills, title and location — never invented by the language model.</p>
+    <p><strong>Do I need to manage Imperium after setup?</strong> No. Your local account, database and brain run on your machine. You talk to the Commander in plain words, approve what it proposes, and take only the final actions that need your own eyes — above all, clicking Submit yourself.</p>
+    <p><strong>What counts as an application?</strong> An application is one real job, followed through the locked flow: discovered, resume generated, ATS checked, ready to apply, filled, submitted by you, and tracked. Each state change is a real database event, shown live in the Tracker. Local Logic includes unlimited discoveries, Ollama 3B unlimited tailored resumes and Ollama 7B unlimited form fills. There are no allowances and no counters, because nothing is metered: your machine does the work.</p>
+    <p><strong>Does Imperium ever submit for me?</strong> No — never. There is no submit function anywhere in Imperium, not even a disabled one. The agent fills the form, shows the checklist, and stops. Only you click Submit, and the application becomes “submitted” in the Tracker only when you confirm it with proof.</p>
+    <p><strong>How do I track progress?</strong> Every application has a live timeline in the Tracker, and a global activity feed shows every real step with a timestamp. Updates arrive by Server-Sent Events the moment the database changes — never on a timer, never invented. Imperium is built and maintained by Merugu Dinesh Kumar. Questions go to dinesh.merugu.kumar@gmail.com. There are no support tiers, because there are no modes to sell.</p>
+    <p><strong>Will my resume be optimized for ATS?</strong> Every mode includes ATS scoring against the exact job description: matched keywords, missing keywords and a plain-language explanation, re-scored after every edit. Resumes are written only from your profile, so every keyword claimed is one you can defend in an interview. The aim is a resume an applicant tracking system can read and a recruiter can trust. Imperium does not guarantee a particular ATS score, an interview or a job offer.</p>
+    <p><strong>Who is responsible for my data?</strong> You are — because it never leaves your machine. Imperium stores your profile, resumes and job history in a local SQLite database, and sends none of it to any outside service. Passwords are hashed, session cookies are httpOnly, and resume text is never written to logs. What you submit to an employer is your decision: the agent prepares and fills, you review and submit. That split is deliberate, and it is enforced by the state machine, not by a promise.</p>
+    <p><strong>What’s included in Research Notes?</strong> For any saved job, the Research Agent gathers public information about the company and the role — what it does, its size and location if publicly known, its stated tech stack and recent public signals — and stores it as a sourced note attached to the job. Like everything in Imperium, it costs $0 and is included in every mode, with no maximum of notes per job. Every claim carries its source; anything without a source is labelled an inference or left out.</p>
+    <p><strong>What’s included in ATS Scoring?</strong> For $0 in every mode: your resume is scored against the exact job description, with matched and missing keywords and a plain-language explanation. Re-score after every edit, and watch the score move only when the text really changes.</p>
+    <p><strong>How much does Form Filling cost?</strong> Form Filling costs $0, like everything else. The Automation Agent maps every form field to your profile or resume, fills what it can, blocks what it must — CAPTCHA, password, OTP and unknown fields — and stops before Submit.</p>
+  </div>
+</section>
+
+<!-- ============ CTA — three photographs, then a field ============ -->
+<section class="cta">
+  <div class="cta-strip arrive-group">
+    <figure class="cta-photo arrive"><div class="ph ph-drift"><picture>
+      <source srcset="../media/work/2.avif" type="image/avif">
+      <img src="../media/work/2.webp" alt="A team working around a table" width="1328" height="876" loading="lazy">
+    </picture></div></figure>
+    <figure class="cta-photo arrive"><div class="ph ph-drift"><picture>
+      <source srcset="../media/work/6.avif" type="image/avif">
+      <img src="../media/work/6.webp" alt="A bright office with rows of desks" width="1328" height="876" loading="lazy">
+    </picture></div></figure>
+    <figure class="cta-photo arrive"><div class="ph ph-drift"><picture>
+      <source srcset="../media/work/7.avif" type="image/avif">
+      <img src="../media/work/7.webp" alt="A developer's desk with two monitors" width="1328" height="876" loading="lazy">
+    </picture></div></figure>
+  </div>
+  <div class="cta-band arrive">
+    <p class="cta-statement">Stop paying for your own job search — <a class="cta-link" href="mailto:dinesh.merugu.kumar@gmail.com?subject=Imperium%20%E2%80%94%20run%20it%20on%20my%20machine">run it on your machine</a>.</p>
+    <p class="cta-line">Every mode is $0: no subscription, no API keys, nothing to cancel.</p>
+    <p class="cta-line">Questions: dinesh.merugu.kumar@gmail.com · +91 93983 59538</p>
+    <p class="cta-mark" aria-hidden="true">MD</p>
+  </div>
+</section>
+
+</div><!-- /.page -->
+
+<!-- ============ FOOTER — columns above, wordmark below ============ -->
+<footer class="footer">
+  <div class="footer-cols">
+    <div class="fcol">
+      <p class="fcol-head">Merugu Dinesh Kumar</p>
+      <p>Maker of Imperium</p>
+      <p>Hyderabad, India</p>
+    </div>
+    <div class="fcol">
+      <p class="fcol-head">Contact</p>
+      <p><a href="mailto:dinesh.merugu.kumar@gmail.com">dinesh.merugu.kumar@gmail.com</a></p>
+      <p><a href="tel:+919398359538">+91 93983 59538</a></p>
+    </div>
+    <div class="fcol">
+      <p class="fcol-head">Sections</p>
+      <p><a href="#how">How it works</a></p>
+      <p><a href="#flow">The flow</a></p>
+      <p><a href="#agents">The agents</a></p>
+      <p><a href="#modes">Modes</a></p>
+      <p><a href="#faq">FAQ</a></p>
+    </div>
+    <div class="fcol">
+      <p class="fcol-head">The machine</p>
+      <p>SQLite — one local file</p>
+      <p>Ollama — qwen2.5:7b / 3b</p>
+      <p>$0 — every mode, forever</p>
+    </div>
+  </div>
+  <p class="footer-flow">Find Jobs <span aria-hidden="true">→</span> Generate Resume <span aria-hidden="true">→</span> ATS Check <span aria-hidden="true">→</span> Apply <span aria-hidden="true">→</span> <span class="ff-accent">You Submit</span> <span aria-hidden="true">→</span> Tracked</p>
+  <div class="footer-word" aria-hidden="true">
+    <svg viewBox="0 0 1200 168" preserveAspectRatio="xMidYMax meet" role="presentation">
+      <text x="600" y="140" text-anchor="middle" textLength="1180" lengthAdjust="spacingAndGlyphs">IMPERIUM</text>
+    </svg>
+  </div>
+  <p class="footer-legal">© 2026 Merugu Dinesh Kumar · Imperium runs locally — no data leaves your machine.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

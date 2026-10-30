@@ -1,0 +1,2283 @@
+{
+ "url": "http://127.0.0.1:8792/redesign/index.html",
+ "at": "2026-10-30T12:51:53.572Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.79,
+    0.36,
+    0.47,
+    1,
+    1,
+    0.84,
+    0.45,
+    0.54,
+    0.48,
+    1,
+    1,
+    0.9
+   ],
+   "motion": {
+    "elements": 36,
+    "css": 0,
+    "transitions": 36,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 12330,
+     "screens": 13.7,
+     "words": 2451,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "1.avif",
+      "3.avif",
+      "5.avif",
+      "4.avif",
+      "2.avif",
+      "6.avif",
+      "7.avif"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 128.7,
+     "vw": 8.9,
+     "font": "Overused Grotesk",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.35,
+     "top": 401,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "lines": 1,
+     "size": 128.7,
+     "font": "Overused Grotesk"
+    },
+    "headings": [
+     {
+      "text": "IMPERIUM",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 128.7,
+      "vw": 8.9,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 401,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Nothing leaves your machine",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 80.6,
+      "vw": 5.6,
+      "font": "Overused Grotesk",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1392,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "One flow. No shortcuts.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 2645,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "82",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "SYBIOSME Numerals",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 3675,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Six agents, one command",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "right",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 5352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Local Logic $0",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 6348,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Ollama 3B $0",
+      "words": 3,
+      "chars": 12,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 6348,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Ollama 7B $0",
+      "words": 3,
+      "chars": 12,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 6348,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 6995,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered straight",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 7855,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Stop paying for your own job search — run it on your machine.",
+      "words": 13,
+      "chars": 61,
+      "lines": 2,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 11166,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "MD",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.1,
+      "top": 11226,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Overused Grotesk",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "SYBIOSME Numerals",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      20,
+      24,
+      32,
+      43,
+      44,
+      81,
+      101,
+      129
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Overused Grotesk",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 128.7,
+      "vw": 8.9,
+      "font": "Overused Grotesk",
+      "text": "IMPERIUM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f3f5",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f2f3f5",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#fe4701",
+       "top": 11058,
+       "hsl": {
+        "h": 17,
+        "s": 0.99,
+        "l": 0.5
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#d9d7d0",
+       "share": 0.64
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.09
+      },
+      {
+       "color": "#111111",
+       "share": 0.09
+      },
+      {
+       "color": "#4d4d48",
+       "share": 0.07
+      },
+      {
+       "color": "#5a5a55",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#fe4701",
+      "hsl": {
+       "h": 17,
+       "s": 0.99,
+       "l": 0.5
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Choose your mode"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6822
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     },
+     {
+      "type": "img",
+      "ratio": 0.2
+     },
+     {
+      "type": "svg",
+      "ratio": 0.2
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 1026,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "overused grotesk",
+     "sybiosme numerals"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 12330,
+    "margins": {
+     "left": 29,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header#top.board",
+      "tag": "header",
+      "top": 0,
+      "height": 1026,
+      "words": 44,
+      "media": 2,
+      "middle": 34,
+      "heading": {
+       "text": "IMPERIUM",
+       "size": 129,
+       "tag": "h1"
+      },
+      "left": 29,
+      "right": 8,
+      "textLeft": 29,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.intro",
+      "tag": "section",
+      "top": 1176,
+      "height": 1189,
+      "words": 80,
+      "media": 2,
+      "middle": 69,
+      "heading": {
+       "text": "Nothing leaves",
+       "size": 81,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 39,
+      "textLeft": 32,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#flow.flow",
+      "tag": "section",
+      "top": 2525,
+      "height": 2666,
+      "words": 219,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One flow. No shortcuts.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 486,
+      "right": 65,
+      "textLeft": 486,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agents.agents",
+      "tag": "section",
+      "top": 5352,
+      "height": 836,
+      "words": 173,
+      "media": 0,
+      "middle": 84,
+      "heading": {
+       "text": "one command",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 250,
+      "textRight": 250,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#modes.modes",
+      "tag": "section",
+      "top": 6348,
+      "height": 1228,
+      "words": 130,
+      "media": 0,
+      "middle": 31,
+      "heading": {
+       "text": "Local Logic",
+       "size": 43,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 56,
+      "textLeft": 32,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 7735,
+      "height": 2778,
+      "words": 1700,
+      "media": 0,
+      "middle": 158,
+      "heading": {
+       "text": "Questions,",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta",
+      "tag": "section",
+      "top": 10674,
+      "height": 756,
+      "words": 0,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 0,
+      "height": 900,
+      "words": 64,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 187,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "IMPERIUM",
+      "size": 129,
+      "top": 401,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 431,
+      "n": 12
+     },
+     {
+      "x": 948,
+      "n": 12
+     },
+     {
+      "x": 32,
+      "n": 9
+     },
+     {
+      "x": 486,
+      "n": 2
+     },
+     {
+      "x": 507,
+      "n": 2
+     },
+     {
+      "x": 981,
+      "n": 2
+     },
+     {
+      "x": 748,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 40,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.1,
+    "voidBox": {
+     "x": 0,
+     "y": 180,
+     "w": 720,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.79,
+    0.24,
+    0.68,
+    1,
+    0.98,
+    0.53,
+    0.28,
+    0.42,
+    0.93,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 33,
+    "css": 0,
+    "transitions": 33,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 14465,
+     "screens": 14.1,
+     "words": 2451,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "1.avif",
+      "3.avif",
+      "5.avif",
+      "4.avif",
+      "2.avif",
+      "6.avif",
+      "7.avif"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 63.2,
+     "vw": 8.2,
+     "font": "Overused Grotesk",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.32,
+     "top": 460,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "lines": 1,
+     "size": 63.2,
+     "font": "Overused Grotesk"
+    },
+    "headings": [
+     {
+      "text": "IMPERIUM",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 63.2,
+      "vw": 8.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 460,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Nothing leaves your machine",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Overused Grotesk",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1420,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "One flow. No shortcuts.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 2681,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "82",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "SYBIOSME Numerals",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 3710,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Six agents, one command",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "right",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5410,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 7590,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered straight",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8416,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "MD",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 13237,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Overused Grotesk",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "SYBIOSME Numerals",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      20,
+      24,
+      32,
+      44,
+      63,
+      64
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Overused Grotesk",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 64,
+      "vw": 8.3,
+      "font": "Overused Grotesk",
+      "text": "$0"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f3f5",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f2f3f5",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#fe4701",
+       "top": 13014,
+       "hsl": {
+        "h": 17,
+        "s": 0.99,
+        "l": 0.5
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#d9d7d0",
+       "share": 0.64
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.09
+      },
+      {
+       "color": "#111111",
+       "share": 0.09
+      },
+      {
+       "color": "#4d4d48",
+       "share": 0.07
+      },
+      {
+       "color": "#5a5a55",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#fe4701",
+      "hsl": {
+       "h": 17,
+       "s": 0.99,
+       "l": 0.5
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 0,
+     "height": 83,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Choose your mode"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7392
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.26
+     },
+     {
+      "type": "img",
+      "ratio": 0.23
+     },
+     {
+      "type": "svg",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "overused grotesk",
+     "sybiosme numerals"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 14465,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header#top.board",
+      "tag": "header",
+      "top": 0,
+      "height": 1024,
+      "words": 44,
+      "media": 2,
+      "middle": 34,
+      "heading": {
+       "text": "IMPERIUM",
+       "size": 63,
+       "tag": "h1"
+      },
+      "left": 29,
+      "right": 8,
+      "textLeft": 29,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.intro",
+      "tag": "section",
+      "top": 1174,
+      "height": 1227,
+      "words": 80,
+      "media": 2,
+      "middle": 71,
+      "heading": {
+       "text": "Nothing leaves",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.flow-col",
+      "tag": "div",
+      "top": 2681,
+      "height": 2000,
+      "words": 164,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One flow. No shortcuts.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 116,
+      "right": 36,
+      "textLeft": 116,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.flow-result.arrive",
+      "tag": "div",
+      "top": 4776,
+      "height": 334,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 64,
+      "right": 76,
+      "textLeft": 64,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agents.agents",
+      "tag": "section",
+      "top": 5410,
+      "height": 1238,
+      "words": 173,
+      "media": 0,
+      "middle": 64,
+      "heading": {
+       "text": "one command",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#modes.modes",
+      "tag": "section",
+      "top": 6808,
+      "height": 1328,
+      "words": 130,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Local Logic",
+       "size": 24,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 51,
+      "textLeft": 32,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 8296,
+      "height": 4125,
+      "words": 1700,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions,",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 96,
+      "textLeft": 32,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta",
+      "tag": "section",
+      "top": 12581,
+      "height": 860,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 0,
+      "height": 1024,
+      "words": 64,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "IMPERIUM",
+      "size": 63,
+      "top": 460,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 33
+     },
+     {
+      "x": 116,
+      "n": 2
+     },
+     {
+      "x": 283,
+      "n": 2
+     },
+     {
+      "x": 533,
+      "n": 2
+     },
+     {
+      "x": 412,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 40,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.81,
+    0.58,
+    0.51,
+    1,
+    1,
+    0.89,
+    0.79,
+    0.56,
+    0.68,
+    0.57,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 33,
+    "css": 0,
+    "transitions": 33,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 15923,
+     "screens": 18.9,
+     "words": 2444,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "1.avif",
+      "3.avif",
+      "5.avif",
+      "4.avif"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "chars": 8,
+     "lines": 1,
+     "size": 65.9,
+     "vw": 16.9,
+     "font": "Overused Grotesk",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.66,
+     "top": 243,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "IMPERIUM",
+     "words": 1,
+     "lines": 1,
+     "size": 65.9,
+     "font": "Overused Grotesk"
+    },
+    "headings": [
+     {
+      "text": "IMPERIUM",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 65.9,
+      "vw": 16.9,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 243,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Nothing leaves your machine",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Overused Grotesk",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1284,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "One flow. No shortcuts.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2502,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "82",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "SYBIOSME Numerals",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 3537,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Six agents, one command",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5347,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$0",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7587,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered straight",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8283,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Stop paying for your own job search — run it on your machine.",
+      "words": 13,
+      "chars": 61,
+      "lines": 2,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 14814,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "MD",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Overused Grotesk",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 15027,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Overused Grotesk",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "SYBIOSME Numerals",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      23,
+      30,
+      32,
+      41,
+      64,
+      66
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Overused Grotesk",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 65.9,
+      "vw": 16.9,
+      "font": "Overused Grotesk",
+      "text": "IMPERIUM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f3f5",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f2f3f5",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#1c1c1c",
+       "top": 543,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 4555,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#fe4701",
+       "top": 14762,
+       "hsl": {
+        "h": 17,
+        "s": 0.99,
+        "l": 0.5
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#d9d7d0",
+       "share": 0.64
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.09
+      },
+      {
+       "color": "#111111",
+       "share": 0.09
+      },
+      {
+       "color": "#4d4d48",
+       "share": 0.07
+      },
+      {
+       "color": "#5a5a55",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#fe4701",
+      "hsl": {
+       "h": 17,
+       "s": 0.99,
+       "l": 0.5
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 0,
+     "height": 79,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Choose your mode"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 1120,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "overused grotesk",
+     "sybiosme numerals"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 15923,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header#top.board",
+      "tag": "header",
+      "top": 0,
+      "height": 1120,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "IMPERIUM",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 8,
+      "right": 8,
+      "textLeft": 26,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.intro",
+      "tag": "section",
+      "top": 1216,
+      "height": 1118,
+      "words": 80,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Nothing leaves",
+       "size": 41,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.flow-col",
+      "tag": "div",
+      "top": 2502,
+      "height": 1989,
+      "words": 164,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One flow. No shortcuts.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.flow-result.arrive",
+      "tag": "div",
+      "top": 4555,
+      "height": 612,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 42,
+      "right": 47,
+      "textLeft": 42,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agents.agents",
+      "tag": "section",
+      "top": 5347,
+      "height": 1522,
+      "words": 173,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "one command",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#modes.modes",
+      "tag": "section",
+      "top": 6965,
+      "height": 1149,
+      "words": 130,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 8211,
+      "height": 5885,
+      "words": 1700,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions,",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta",
+      "tag": "section",
+      "top": 14192,
+      "height": 955,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 68,
+      "height": 776,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "IMPERIUM",
+      "size": 66,
+      "top": 243,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 42
+     }
+    ],
+    "leftBlocks": 42,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (13, 15, 16, 17, 20, 24, 32, 43, 44, 81, 101, 129).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/desktop-page-02.jpg",
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/hatch/workspace/projects/mirror-sybiosme-clone/redesign/redesign/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
